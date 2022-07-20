@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+}
+
+#principal{
+    height: 7rem;
+    padding: 5rem;
+    background: url(../img/fondo.jpeg);
+    background-size: contain;
+
+}
+.contenido-header{
+    width: 30%;
+    color:#525252;
+    background-color: rgba(157, 068, 181, 0.2);
+}
+
+.contenedor-item{
+   display: grid;
+   grid-template-columns: 50% 50%;
+}
+.contenedor{
+
+    background: #BADEFC;
+
+
+}
+.imagen-item{
+    padding: 3em;
+    padding-left: 6em;
+    width: 60%;
+}
+.descripcion-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.contenedor-footer{
+    width: 100%;
+    height: 3em; 
+    color: aliceblue;
+    background-color: #B5446E;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
